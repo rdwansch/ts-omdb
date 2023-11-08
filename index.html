@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/index.js" defer></script>
+  </head>
+  <body>
+    <div class="bg-violet-900 mx-auto h-10 w-[1200px] rounded-b-lg"></div>
+    <div class="max-w-[1200px] px-5 mx-auto">
+      <div class="mt-5 flex items-end gap-10">
+        <h1 class="text-4xl font-sans font-semibold">Movie</h1>
+        <input
+          id="search"
+          type="text"
+          class="border border-gray-400 rounded-lg w-[500px] h-8 px-2 focus:outline-none focus:shadow"
+          placeholder="search..."
+        />
+      </div>
+
+      <div id="cards" class="mt-10 flex gap-10 flex-wrap">
+        <p class="text-2xl">Loading...</p>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+
+    <!--  -->
+    <div id="modal"></div>
+  </body>
+</html>
